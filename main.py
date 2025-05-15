@@ -20,7 +20,7 @@ class C_scheduler():
     
 
     @scheduled_task
-    async def hatch(self, triger, time, **kwargs):
+    async def some_function(self, triger, time, **kwargs):
         print("hello")
 
 c_scheduler = C_scheduler()
